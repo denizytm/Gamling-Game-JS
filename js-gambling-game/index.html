@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    
+    <section>
+        <div style="height: 700px;width:100%; display: flex;">
+        <div class="container align-self-center ">
+            <span class="fw-bold d-block mb-2">Current Balance : <span id="balance">10000</span>$</span>
+            <div class="row h-100 ">
+                <div id="box1" style="height: 300px;" class="fs-1 fw-bold col-4 text-center bg-light d-flex align-items-center justify-content-center">0</div>
+                <div id="box2" class="fs-1 fw-bold col-4 text-center bg-light d-flex align-items-center justify-content-center">0</div>
+                <div id="box3" class="fs-1 fw-bold col-4 text-center bg-light d-flex align-items-center justify-content-center">0</div>
+            </div> 
+            <form action=" ">
+            <input id="deposited" class="form-check mt-3" placeholder="Enter the amount" type="text" >
+            </form>
+
+            <button id="button" class="btn btn-primary d-block mx-auto mt-3">Roll</button>
+        </div>
+        </div>
+    </section>
+
+
+    <script src='bootstrap.js'></script>
+    <script src='project.js'></script>
+</body>
+</html>
